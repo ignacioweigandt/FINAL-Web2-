@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Web2</title>
+    <link rel="stylesheet" href="./recursos/css/estilo.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>POSTS</h1>
+        </header>
+        <main>
+            <h2>Buscar por ID</h2>
+            <form id="formulario-buscar-post">
+                <input type="number" id="buscar-id" placeholder="Ingresar ID" required>
+                <button class="btn" type="submit">Buscar</button>
+            </form>
+            <div id="resultado-busqueda"></div>
+
+            <h2>Agregar Post</h2>
+            <form id="formulario-agregar-post">
+                <input type="text" id="nuevo-titulo" placeholder="Título" required>
+                <textarea id="nuevo-cuerpo" placeholder="Cuerpo" required></textarea>
+                <button class="btn" type="submit">Agregar</button>
+            </form>
+
+            <h2>Lista</h2>
+            <ul id="lista-posts"></ul>
+        </main>
+    </div>
+    <script src="./recursos/js/index.js"></script>
+</body>
+</html>
+
+
+
